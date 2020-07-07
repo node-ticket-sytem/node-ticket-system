@@ -54,4 +54,49 @@ app.use(express.errorHandler({ logger }));
 
 app.hooks(appHooks);
 
+// setTimeout( () => {
+//   var faker = require('faker');
+
+//   var i = 0;
+
+//   while ( i < 500 ) {
+
+//     var user = {
+//       display_name: faker.name.findName(),
+//       first_name: faker.name.firstName(),
+//       email: faker.internet.email(),
+//       last_name: faker.name.lastName(),
+//       password: faker.name.lastName()
+      
+//     };
+
+//     app.service('users').create(user);
+//     i ++;
+//   }
+// }, 3000);
+
+// DEFINE TICKET CLASSES FOR NEW DB!
+// const initTicketClasses = async () => {
+//   const classes = [
+//     {
+//       name: 'Task',
+//       prefix: 'TSK',
+//       slug: 'task'
+
+//     }
+//   ]
+// };
+
+// const initSystem = async () => {
+//   const currentTicketClasses = await app.service('ticket-classes').find();
+//   if(currentTicketClasses.total == 0) {
+//     await initTicketClasses();
+//   }
+// };
+
+// setTimeout( () => {
+//   initSystem();
+// }, 2500);
+
 module.exports = app;
+ 

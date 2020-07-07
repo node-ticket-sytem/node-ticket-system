@@ -3,8 +3,8 @@
   "port": 3030,
   "public": "../public/",
   "paginate": {
-    "default": 10,
-    "max": 50
+    "default": 500,
+    "max": 1000
   },
   "authentication": {
     "entity": "user",
@@ -28,5 +28,6 @@
       "passwordField": "password"
     }
   },
-  "mongodb": "mongodb://localhost:27017/node_ticket_system"
+  "mongodb": "mongodb://localhost:27017/node_ticket_system",
+  "nedb": "../data"
 }

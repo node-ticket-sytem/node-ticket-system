@@ -1,3 +1,4 @@
+const processRecord = require('./hooks/process-record');
 // Application hooks that run for every service
 
 module.exports = {

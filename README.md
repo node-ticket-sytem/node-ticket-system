@@ -4,7 +4,19 @@
 
 ## About
 
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+Node Ticket System originally started out as a PHP application in 2013 to teach myself how to build a PHP/MySQL/Javascript CRUD application.
+
+Over the years I have alway wanted to continue the development of [PHP Ticket System](https://sourceforge.net/projects/phpticketsystem/) I just kept puting it off for one reason or another.  Now that a decade has flow by I have decided to reboot the project, only this time using NodeJS, Angular, and MongoDB.
+
+### Why the language change?
+
+I honestly did not keep up with all of the PHP changes from version 5 to 7+ and I find NodeJS much simpiler, portable, and easier to use tool for building web applications.
+
+### Frameworks used
+
+[Feathers](http://feathersjs.com): An open source web framework for building modern real-time applications.
+
+
 
 ## Getting Started
 
@@ -23,6 +35,8 @@ Getting up and running is as easy as 1, 2, 3.
     ```
     npm start
     ```
+
+4. Open a browser and visit [http://localhost:3030](https://localhost:3030)
 
 ## Testing
 
