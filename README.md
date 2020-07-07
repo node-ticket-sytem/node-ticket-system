@@ -18,25 +18,30 @@ I honestly did not keep up with all of the PHP changes from version 5 to 7+ and 
 
 
 
-## Getting Started
+## Testing the app
+### This app is in very early stages of being developed.
 
-Getting up and running is as easy as 1, 2, 3.
+1. Make sure you have mongo db running on localhost...
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
+2. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+3. Install your dependencies
 
     ```
     cd path/to/node-ticket-system
     npm install
     ```
 
-3. Start your app
+4. Start your app
 
     ```
     npm start
     ```
 
-4. Open a browser and visit [http://localhost:3030](https://localhost:3030)
+5. Open a browser and visit [http://localhost:3030/setup](https://localhost:3030/setup)
+
+6. Using the setup wizard - currently just put anything into one of the fields and click next next finish.
+
+7. Once you see the loading spinner you can browse to [http://localhost:3030](https://localhost:3030) and login with admin@system.local / P0pc0rn1
 
 ## Testing
 
