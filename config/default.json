@@ -1,9 +1,9 @@
 {
   "host": "localhost",
-  "port": 3030,
+  "port": 5000,
   "public": "../public/",
   "paginate": {
-    "default": 500,
+    "default": 50,
     "max": 1000
   },
   "authentication": {
@@ -28,6 +28,6 @@
       "passwordField": "password"
     }
   },
-  "mongodb": "mongodb://localhost:27017/node_ticket_system",
+  "mongodb": "mongodb://localhost:27017/nts",
   "nedb": "../data"
 }
